@@ -1,0 +1,277 @@
+# Site
+repository: snowedev/snowedev.github.io
+# favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 이원석
+title: iOS Developer
+email: leeewonseok@gmail.com
+website: https://snowedev.github.io
+
+# Dark Mode (true/false/never)
+# darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username:  snowedev
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: 이원석
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  > **URL of here**: https://snowedev.github.io
+
+  안녕하세요, iOS 개발을 좋아하는 이원석입니다.   
+
+  전 개발자로서,   
+  - <mark>새로운 기술</mark>을 배우는 것에 열광하며, <mark>더 깔끔하고 정돈된 코드</mark>를 작성하는 것을 좋아합니다.
+  - <mark>소통, 피드백, 개발, 성장</mark>이 있는 개발 문화를 가장 좋아합니다.
+  - <mark>학습 속도</mark>가 빠르다고 자부합니다. 하나의 학습으로 또 다른 학습을 이어나가는 습관이 있습니다.
+  - 제가 생각하는 <mark>좋은 코드</mark>는 프로젝트의 아키텍쳐를 헤치지 않으며 가독성이 좋은 코드입니다.
+  - 깃헙 혹은 블로그에 <mark>기록</mark>하며 공부하는것을 좋아합니다.  
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: <img width="50px" style="border-radius:50%" src="https://user-images.githubusercontent.com/42789819/144747622-30206a57-4024-420d-8a88-2abbaa0b77f5.png"> Cherish</img>
+        sub_title: 연락을 이어가는 가장 쉬운 방법
+        caption: iOS Developer
+        link: https://snowedev.github.io/2021/01/20/Restrospect/retrospect2/
+        link_text: 프로젝트 개발 회고
+        additional_links:
+          - title:  appstore
+            icon: fab fa-app-store
+            url: https://apps.apple.com/us/app/id1557601516
+          - title:  cherish github
+            icon: fab fa-github
+            url: https://github.com/TeamCherish/Cherish-iOS
+          - title:  cherish instagram
+            icon: fab fa-instagram
+            url: https://www.instagram.com/cherish_ofcl/
+        quote: >
+          "친구 혹은 지인들에게 연락 좀 하라는 소리 자주 들으시나요?"
+        description: | # this will include new lines to allow paragraphs
+          **execution period**
+          - 2020.12.26 - 2021.01.16(APPJAM)
+          - 2021.02.20 - 07.03(Released)  
+          - 2021.07.03 ~ Maintenance
+
+          **contribution**
+          - 15명(기획 3, 디자인 3, iOS 3, Android 3, Server 3)이 한 팀을 이루었습니다.
+          - 서비스 내에서 회원가입, 온보딩, 연락하기(물주기)/미루기, 리뷰하기, 캘린더 기능을 주로 개발했습니다.
+          - 상세한 내용은 좌측의 프로젝트 Github 링크에 담았습니다.
+          
+          **result**
+          - 🏆 SOPT 27기 APPJAM(장기해커톤) <mark>최우수상</mark>
+          - 🎉 앱스토어 
+            - <mark>에디터 선정 이번 주 주목해야 할 앱, 이번 주 추천 앱</mark> 선정  
+            - <mark>7월 최고의 앱</mark> 선정  
+            - <mark>앱스토어 오늘의 앱</mark> 선정
+
+          **tech stack**
+          - Swift, MVC
+          - Storyboard → SnapKit(진행중)
+          - Then, Alamofire, Kingfisher, Firebase(FCM)
+          - FSCalendar, CallKit, MessageUI, Contacts
+
+      - layout: left
+        title: <img width="60px" style="border-radius:50%" src="https://user-images.githubusercontent.com/42789819/144747730-ed905665-8bf8-49b9-b17f-c5938cd6180a.png"> CA:PIN</img>
+        sub_title: 오늘은 무슨 카페가지?
+        caption: Server Developer
+        link: https://snowedev.github.io/2021/07/27/Restrospect/retrospect3/
+        link_text: 프로젝트 개발 회고
+        additional_links:
+          - title:  capin github
+            icon: fab fa-github
+            url: https://github.com/teamCA-PIN/CA-PIN_Server
+          - title:  capin instagram
+            icon: fab fa-instagram
+            url: https://www.instagram.com/club_ca.pin/
+        quote: >
+          "검색해서 나오는 카페가 다 똑같고 광고 같아 꺼려지지 않으신가요?"
+        description: | # this will include new lines to allow paragraphs
+          **execution period**
+          - 2021.06.26 - 07.16(APPJAM)
+          - 08.27 ~ 앱개선 작업 중
+          - Release Soon...
+
+          **contribution**
+          - 14명(기획 2, 디자인 3, iOS 3, Android 4, Server 2)이 한 팀을 이루었습니다.
+          - 서비스 내에서 사용자 인증 및 조회 관련, 카테고리, CAFETI 검사 관련 개발을 담당했습니다. 
+          - 상세한 내용은 좌측의 프로젝트 Github 링크에 담았습니다.
+          
+          **result**
+          - 🏆 SOPT 28기 APPJAM(장기해커톤) <mark>대상</mark>
+
+          **tech stack**
+          - TypeScript
+          - Node.js(Express), AWS EC2, S3, PM2
+          - MongoDB 
+
+      - layout: left
+        title: <img width="60px" style="border-radius:50%" src="https://user-images.githubusercontent.com/42789819/146631097-0f13924e-4814-410d-9d8e-08f8cd36af97.png"> Heimish</img>
+        sub_title: 당신의 아늑한 심리상담 챗봇
+        caption: iOS / Server Developer
+        additional_links:
+          - title:  heimish github
+            icon: fab fa-github
+            url: https://github.com/Team-Heimish/Heimish-iOS
+        quote: >
+          "시간, 장소, 금액에 구애받지 않는 심리상담사"
+        description: | # this will include new lines to allow paragraphs
+          **execution period**
+          - 2021.03.13 ~ 06.10(Dongguk Univ Capstone 4-1)
+
+          **contribution**
+          - 혼자 개발을 책임지고 진행하였습니다.
+          - **iOS** 개발 및 **Server** 개발을 하였습니다.
+          - 상세한 내용은 좌측의 프로젝트 Github 링크에 담았습니다.
+
+          **tech stack**
+          - **iOS**
+            - Swift, MVC
+            - Moya, SwiftLint, Realm, Google Dialogflow
+          - **Server**
+            - JavaScript, Node.js(express), AWS EC2, PM2
+
+  - title: Activity # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: SOPT 27기 iOS Part
+        sub_title: 대학생 연합 IT 벤처창업동아리
+        caption: 2020.09.26 - 2021.01.16(수료)
+        additional_links:
+          - title:  github
+            icon: fab fa-github
+            url: https://github.com/27thONSOPT-iOS/LeeWonSeok
+          - title:  sopt instagram
+            icon: fab fa-instagram
+            url: https://www.instagram.com/sopt_official/
+        quote: >
+          "개발에 열정을 가지게 해주었던 계기"
+        description: | # this will include new lines to allow paragraphs
+            - 8주간 파트원들과 정해진 커리큘럼을 따라 학습하였습니다.
+            - [5주차에는 디자이너와의 협업을, 7주차에는 서버 개발자와의 협업](https://www.notion.so/snowedev/ON-SOPT-27-3b33324283464de9bce0d9e512ebe079#ee7b1659b0034173a0171b39d91828c0)을 진행하였습니다.
+            - 6주차에는 동아리 내 무박 2일 해커톤에 참여하여 "MEMECHIN" 이라는 밈 모아보기 앱을 개발하였습니다.
+            - 8주간의 세미나 종료 후에는 3주간의 장기 해커톤인 APPJAM에 참여하여 "Cherish"라는 서비스를 개발하였습니다.
+            - 동아리원들과 iOS 기초 스터디와 [클론 코딩 스터디](https://www.notion.so/snowedev/Clone-Coding-Study-3570f80be4e64f5bb13561e236f866df#8fe817f03c4c4cdd9df6c1ae6a7510e0)를 개설하여 참여하였습니다.
+          
+      - layout: top
+        title: SOPT 28기 Server Part
+        sub_title: 대학생 연합 IT 벤처창업동아리
+        caption: 2021.03.27 - 2021.07.31(수료)
+        additional_links:
+          - title:  github
+            icon: fab fa-github
+            url: https://github.com/portfolio-toy
+          - title:  sopt instagram
+            icon: fab fa-instagram
+            url: https://www.instagram.com/sopt_official/
+        quote: >
+          "더 좋은 개발자가 되기 위한 새로운 분야 경험"
+        description: | # this will include new lines to allow paragraphs
+            - 8주간 파트원들과 정해진 커리큘럼을 따라 학습하였습니다.
+            - [6주차에는 웹 프론트엔드, 앱 개발자와의 협업](https://www.notion.so/snowedev/BE-SOPT-28-fdeb94d1ebc847209c00eb8a2651e7d6#cf73fce4a4964a6199e019c6070b9549)을 진행하였습니다.
+            - 8주간의 세미나 종료 후에는 3주간의 장기 해커톤인 APPJAM에 참여하여 "CA:PIN"라는 서비스를 개발하였습니다.
+            - 동아리원들과 [알고리즘 스터디](https://github.com/snowedev/Algorithm)와 [텍스쳐 스터디](https://github.com/TexBrother/TexBrother-Wonseok)를 개설하여 참여하였습니다.
+
+  - title: Skill
+    layout: list
+    content:
+      - layout: top-middle
+        caption: 사용중이거나 사용했던 경험이 있는 기술들입니다.
+
+      - layout: left
+        title: iOS
+        description: |
+          - Swift, MVC
+          - Storyboard, SnapKit, Texture
+          - Alamofire, Moya
+          - Then, Kingfisher, SwiftLint, Realm, Firebase, Google Dialogflow, Lottie, FSCalendar
+          - Xcode
+          - <mark>interesting</mark>: SwiftUI, RxSwift, MVVM, Instruments
+
+      - layout: left
+        title: Backend
+        description: |
+          - NodeJS(JavaScript, TypeScript)
+          - mongoDB, MySQL
+          - AWS EC2, S3
+          - Visual Studio Code
+
+      - layout: left
+        title: Tool
+        description: |
+          - Zeplin, Figma
+          - Slack, Notion, Discord, Gather
+          - Postman, Swagger
+          - GitKraken
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Dongguk University
+        caption: 2020.03(편입) - 2022.02
+        sub_title: 정보통신공학전공 / 범죄수사SW 연계전공
+        description: |
+          GPA 4.13 / 4.5  
+          TOEIC 960(~21.07.28)
+
+      - layout: top
+        title: Myongji College
+        caption: 2015.02 - 2020.02(졸업)
+        sub_title: 정보통신공학전공
+        description: |
+          GPA 3.83 / 4.5
+
+      - layout: top
+        title: Dongsung HighSchool
+        caption: 2012.03 - 2015.02(졸업)
+        sub_title: 자연계열 
+  
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
