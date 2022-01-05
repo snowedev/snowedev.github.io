@@ -9,7 +9,7 @@ version: 2
 name: 이원석
 title: iOS Developer
 email: leeewonseok@gmail.com
-website: https://snowedev.github.io
+website: https://snowee.tistory.com
 
 # Dark Mode (true/false/never)
 # darkmode: true
@@ -238,6 +238,14 @@ content:
           - Slack, Notion, Discord, Gather
           - Postman, Swagger
           - GitKraken
+  
+  - title: Career # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Shinhan Bank
+        caption: 2022.01 ~
+        sub_title: 디지털개발부 모바일 Cell iOS Dex
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
